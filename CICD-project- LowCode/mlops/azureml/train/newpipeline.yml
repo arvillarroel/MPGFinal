@@ -1,4 +1,4 @@
-$schema: https://azuremlschemas.azureedge.net/latest/pipelineJob.schema.json
+ger$schema: https://azuremlschemas.azureedge.net/latest/pipelineJob.schema.json
 type: pipeline
 display_name: Price_Pipeline  # Provide the display name for the pipeline
 experiment_name: price_prediction_pipeline  # Provide the experiment name
@@ -56,7 +56,7 @@ jobs:
         type: choice
         values: [10, 20, 30, 50]
       max_depth:
-        type: int  # Specify the type for max_depth
+        type: integer  # Specify the type for max_depth
         values: None  # Provide the values for max_depth
     objective:
       goal: minimize
