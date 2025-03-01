@@ -13,7 +13,7 @@ jobs:
     uses: Azure/mlops-templates/.github/workflows/create-compute.yml@main
     with:
       # Specify the cluster configuration
-      cluster_name: cpu-cluster
+      cluster_name: cpu-cluster2
       size: Standard_DS11_v2
       min_instances: 0
       max_instances: 1
