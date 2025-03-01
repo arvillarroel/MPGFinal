@@ -1,4 +1,4 @@
-ger$schema: https://azuremlschemas.azureedge.net/latest/pipelineJob.schema.json
+$schema: https://azuremlschemas.azureedge.net/latest/pipelineJob.schema.json
 type: pipeline
 display_name: Price_Pipeline  # Provide the display name for the pipeline
 experiment_name: price_prediction_pipeline  # Provide the experiment name
